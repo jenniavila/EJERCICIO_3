@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    background-color: rgb(233, 118, 227);
+}
+
+article{
+    display: flex;
+    height: 80%;
+    padding-top: 10px;
+}
+
+#mapa {
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+  
+}
+
+#pronostico{
+    width: 50%;
+    background-color: rgb(78, 100, 223);
+    padding-top: 5%;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 10%;
+}
+
+#pronostico>div>label {
+    font-weight: bold;
+    padding-top: 5%;
+    font-size:medium;
+}
+
+#clima>div>label {
+    font-weight: bold;
+    padding-left: 5%;
+}
+
+#clima>div{
+    padding-top: 5%;
+    font-size:large;
+}
+
+icono{
+        width: 100px;
+        height: 100px;
+      }
